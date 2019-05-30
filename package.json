@@ -15,12 +15,14 @@
   "author": "Matt Travi <npm@travi.org> (https://matt.travi.org/)",
   "scripts": {
     "test": "npm-run-all --print-label --parallel lint:*",
+    "lint:js": "eslint . --cache",
     "lint:md": "remark . --frail",
     "lint:sensitive": "ban",
     "lint:travis": "travis-lint .travis.yml"
   },
   "devDependencies": {
     "@form8ion/commitlint-config": "^1.0.3",
+    "@form8ion/eslint-config": "1.1.0",
     "@form8ion/remark-lint-preset": "^1.0.0",
     "ban-sensitive-files": "^1.9.2",
     "cz-conventional-changelog": "^2.1.0",
