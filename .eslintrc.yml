@@ -1,1 +1,3 @@
-extends: '@form8ion'
+extends:
+  - '@form8ion'
+  - ./index.js
