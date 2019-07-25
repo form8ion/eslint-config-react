@@ -1,6 +1,8 @@
 module.exports = {
   plugins: ['react-hooks'],
 
+  parser: 'babel-eslint',
+
   rules: {
     'react/jsx-filename-extension': ['error', {extensions: ['.js']}],
     'react/require-default-props': 'off',
