@@ -13,8 +13,7 @@ module.exports = {
   overrides: [{
     files: '.storybook/*.js',
     rules: {
-      'import/no-extraneous-dependencies': ['error', {devDependencies: true}],
-      'react/state-in-constructor': ['error', 'never']
+      'import/no-extraneous-dependencies': ['error', {devDependencies: true}]
     }
   }]
 };
