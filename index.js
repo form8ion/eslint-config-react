@@ -7,7 +7,8 @@ module.exports = {
     'react/jsx-filename-extension': ['error', {extensions: ['.js']}],
     'react/require-default-props': 'off',
     'react-hooks/rules-of-hooks': 'error',
-    'react-hooks/exhaustive-deps': 'warn'
+    'react-hooks/exhaustive-deps': 'warn',
+    'react/state-in-constructor': ['error', 'never']
   },
 
   overrides: [{
