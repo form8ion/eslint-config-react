@@ -33,6 +33,6 @@
   },
   "dependencies": {
     "babel-eslint": "10.0.2",
-    "eslint-plugin-react-hooks": "^1.7.0"
+    "eslint-plugin-react-hooks": "^2.0.0"
   }
 }
