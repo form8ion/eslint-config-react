@@ -8,7 +8,8 @@ module.exports = {
     'react/require-default-props': 'off',
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
-    'react/state-in-constructor': ['error', 'never']
+    'react/state-in-constructor': ['error', 'never'],
+    'jsx-a11y/label-has-associated-control': ['error', {assert: 'either'}]
   },
 
   overrides: [{
