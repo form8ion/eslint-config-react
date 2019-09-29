@@ -3,6 +3,12 @@ module.exports = {
 
   parser: 'babel-eslint',
 
+  extends: [
+    'airbnb/rules/react',
+    'airbnb/rules/react-a11y',
+    'airbnb/hooks'
+  ],
+
   rules: {
     'react/jsx-filename-extension': ['error', {extensions: ['.js']}],
     'react/require-default-props': 'off',
