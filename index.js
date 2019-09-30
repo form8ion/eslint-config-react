@@ -18,10 +18,18 @@ module.exports = {
     'jsx-a11y/label-has-associated-control': ['error', {assert: 'either'}]
   },
 
-  overrides: [{
-    files: '.storybook/*.js',
-    rules: {
-      'import/no-extraneous-dependencies': ['error', {devDependencies: true}]
+  overrides: [
+    {
+      files: '.storybook/*.js',
+      rules: {
+        'import/no-extraneous-dependencies': ['error', {devDependencies: true}]
+      }
+    },
+    {
+      files: '**/*-test.js',
+      rules: {
+        'react/prop-types': 'off'
+      }
     }
-  }]
+  ]
 };
