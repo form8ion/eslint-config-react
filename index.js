@@ -20,7 +20,7 @@ module.exports = {
 
   overrides: [
     {
-      files: '.storybook/*.js',
+      files: '.storybook/**/*.js',
       rules: {
         'import/no-extraneous-dependencies': ['error', {devDependencies: true}]
       }
