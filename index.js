@@ -26,9 +26,18 @@ module.exports = {
       }
     },
     {
-      files: '**/*-test.js',
+      files: [
+        'src/**/stories.js',
+        '**/*-test.js'
+      ],
+      globals: {
+        window: 'readonly',
+        document: 'readonly'
+      },
       rules: {
-        'react/prop-types': 'off'
+        'react/prop-types': 'off',
+        'react/jsx-props-no-spreading': 'off',
+        'react/jsx-boolean-value': ['error', 'always']
       }
     }
   ]
