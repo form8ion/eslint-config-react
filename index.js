@@ -20,13 +20,8 @@ module.exports = {
 
   overrides: [
     {
-      files: '.storybook/**/*.js',
-      rules: {
-        'import/no-extraneous-dependencies': ['error', {devDependencies: true}]
-      }
-    },
-    {
       files: [
+        '.storybook/**/*.js',
         'src/**/stories.js',
         '**/*-test.js'
       ],
@@ -35,6 +30,7 @@ module.exports = {
         document: 'readonly'
       },
       rules: {
+        'import/no-extraneous-dependencies': ['error', {devDependencies: true}],
         'react/prop-types': 'off',
         'react/jsx-props-no-spreading': 'off',
         'react/jsx-boolean-value': ['error', 'always']
