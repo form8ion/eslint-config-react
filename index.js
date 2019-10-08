@@ -15,6 +15,7 @@ module.exports = {
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
     'react/state-in-constructor': ['error', 'never'],
+    'react/destructuring-assignment': ['error', 'always', {ignoreClassFields: true}],
     'jsx-a11y/label-has-associated-control': ['error', {assert: 'either'}]
   },
 
