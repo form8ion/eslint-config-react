@@ -16,6 +16,7 @@ module.exports = {
     'react-hooks/exhaustive-deps': 'warn',
     'react/state-in-constructor': ['error', 'never'],
     'react/destructuring-assignment': ['error', 'always', {ignoreClassFields: true}],
+    'react/jsx-props-no-spreading': ['error', {custom: 'ignore'}],
     'jsx-a11y/label-has-associated-control': ['error', {assert: 'either'}]
   },
 
