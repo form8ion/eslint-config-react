@@ -24,7 +24,8 @@ module.exports = {
       files: [
         '.storybook/**/*.js',
         'src/**/stories.js',
-        '**/*-test.js'
+        '**/*-test.js',
+        'test/integration/features/step_definitions/**/*-steps.js'
       ],
       globals: {
         window: 'readonly',
