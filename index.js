@@ -3,6 +3,10 @@ module.exports = {
 
   parser: 'babel-eslint',
 
+  env: {
+    browser: true
+  },
+
   extends: [
     'airbnb/rules/react',
     'airbnb/rules/react-a11y',
