@@ -17,7 +17,8 @@
     "test": "npm-run-all --print-label --parallel lint:*",
     "lint:js": "eslint . --cache",
     "lint:md": "remark . --frail",
-    "lint:sensitive": "ban"
+    "lint:sensitive": "ban",
+    "prepare": "husky install"
   },
   "devDependencies": {
     "@form8ion/babel-preset": "1.6.74",
