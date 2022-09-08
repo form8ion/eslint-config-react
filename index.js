@@ -21,6 +21,7 @@ module.exports = {
     'react/state-in-constructor': ['error', 'never'],
     'react/destructuring-assignment': ['error', 'always', {ignoreClassFields: true}],
     'react/jsx-props-no-spreading': ['error', {custom: 'ignore'}],
+    'react/no-unknown-property': ['error', {ignore: ['css']}],
     'jsx-a11y/label-has-associated-control': ['error', {assert: 'either'}]
   },
 
