@@ -31,7 +31,7 @@
     "eslint-plugin-react-hooks": "4.6.2"
   },
   "devDependencies": {
-    "@form8ion/babel-preset": "1.6.128",
+    "@form8ion/babel-preset": "1.6.129",
     "@form8ion/commitlint-config": "1.0.76",
     "@form8ion/eslint-config": "7.0.9",
     "@form8ion/remark-lint-preset": "6.0.3",
