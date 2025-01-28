@@ -34,7 +34,7 @@
     "@form8ion/babel-preset": "1.6.141",
     "@form8ion/commitlint-config": "2.0.3",
     "@form8ion/eslint-config": "7.0.12",
-    "@form8ion/remark-lint-preset": "6.0.5",
+    "@form8ion/remark-lint-preset": "6.0.6",
     "ban-sensitive-files": "1.10.7",
     "cz-conventional-changelog": "3.3.0",
     "husky": "9.1.7",
