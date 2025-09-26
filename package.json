@@ -32,7 +32,7 @@
   },
   "devDependencies": {
     "@form8ion/babel-preset": "1.6.149",
-    "@form8ion/commitlint-config": "2.0.6",
+    "@form8ion/commitlint-config": "2.0.7",
     "@form8ion/eslint-config": "7.0.13",
     "@form8ion/remark-lint-preset": "6.0.7",
     "ban-sensitive-files": "1.10.10",
