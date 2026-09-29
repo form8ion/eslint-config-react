@@ -23,7 +23,7 @@
     "provenance": true
   },
   "dependencies": {
-    "@babel/core": "^7.16.7",
+    "@babel/core": "^8.0.0",
     "@babel/eslint-parser": "7.29.9",
     "eslint-config-airbnb": "19.0.4",
     "eslint-plugin-jsx-a11y": "6.10.2",
